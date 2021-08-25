@@ -33,8 +33,8 @@
     <?php echo '<h3 class="texto-vermelho">', "$nome $apelido", "</h3>" ?> <br>
     <?= '<h3 class="texto-vermelho">', "$nome $apelido", "</h3>" ?>
     <p> Nome do cliente: <?= "<strong> $nome $apelido </strong>" ?> </p>
+    <!--substr retorna partes da string-->
     <p> <?= substr($apelido,0,4) ?></p>
-    
     <hr>
     <!-- Forma que faz mais sentido. -->
     <h3> <?php echo "$nome $apelido"?></h3>
